@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <script src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="main.css" />
+</head>
+<body>
+    <input type="submit" onclick="start()" value="Start">
+	<div id="tytul">Super Farmer</div>
+    <div id="board">
+		<canvas id="canvas" width="1067" height="600" onmousedown="highlight()" onmousemove="mouseMove(event)"></canvas>
+	</div>
+	<div id="licznik"></div>
+    <div id="info"></div>
+    <div id="stats"></div>
+    <select id="gamespeed">
+        <option value="50">50</option>
+        <option value="20">20</option>
+        <option value="10">10</option>
+        <option value="5">5</option>
+        <option value="1">1</option>
+        <option value="0.5">0.5</option>
+        <option value="0.1">0.1</option>
+    </select>
+</body>
+</html>

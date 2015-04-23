@@ -1,0 +1,57 @@
+body{
+    background-color: #222;
+}
+#board{
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    border: outset 3px #0489B1;
+    background-color: #eee;
+}
+#tytul{
+    position: absolute;
+    top: 10px;
+    left: 80px;
+    width: 520px;
+    height: 80px;
+    text-align: center;
+    font-size: 60px;
+    font-family: Arial;
+    color: #0489B1;
+}
+#licznik{
+    position: absolute;
+    top: 720px;
+    left: 80px;
+    width: 520px;
+    height: 80px;
+    font-size: 20px;
+    font-family: arial;
+    color: #0489B1;
+}
+#info{
+    position: absolute;
+    top: 100px;
+    left: 1100px;
+    width: 200px;
+    height: 300px;
+    font-size: 20px;
+    font-family: arial;
+    border: outset 3px #0489B1;
+    overflow: auto;
+    background-color: #eee;
+}
+#stats{
+    position: absolute;
+    top: 420px;
+    left: 1100px;
+    width: 200px;
+    height: 200px;
+    font-size: 50px;
+    text-align: center;
+    vertical-align: middle;
+    font-family: arial;
+    border: outset 3px #0489B1;
+    overflow: auto;
+    background-color: #eee;
+}
